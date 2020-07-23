@@ -1,23 +1,27 @@
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose&family=Teko:wght@600&display=swap" rel="stylesheet">
 <html>  
 <head>  
   <style>
       body {
-        background-color: black;
+        background-color: rgb(7, 19, 87);
         color: whitesmoke;
         text-align: center;
+        font-family: 'Red Rose', cursive;
       }
       #main {
         color: whitesmoke;
       }
       #title {
-        color: violet;
-        background-color: silver;
-        font-size: 60px;
+        color: white;
+        background-color: rgb(88, 86, 124);
+        font-size: 150px;
         font-family: 'Teko', sans-serif;
-        padding: 30px 20px 30px 20px;
-        margin: 10px 20px 10px 20px;
+        padding: 3px;
+        margin: 10px;
         text-align: center;
+      }
+      #title-tag {
+        font-size: 30px;
       }
       #img-div {
         color: whitesmoke;
@@ -25,27 +29,39 @@
       #image {
         max-width: 100%;
         height: auto; 
+        margin: 0px auto 0px auto;
       }
       #img-caption {
+        text-align: left;
         color: whitesmoke;
       } 
       #tribute-info {
         color: whitesmoke;
+        font-size: 30px;
+      }
+      #quote {
+        font-style: italic;
+        font-size: 20px;
       }
       #headline {
-        color: whitesmoke
+        color: whitesmoke;
+        font-size: 35px;
       }
       #tribute-link {
         color: violet
+      }
+      h3 {
+        font-size: 25px;
+        background-color: rgb(88, 86, 124);
       }
   </style>
 </head>      
 <body id="main">
     <title>MIYAVI</title>
     <h1 id="title">MIYAVI</h1>
-    <p>The Samurai Guitarist</p>
+    <p id="title-tag">The Samurai Guitarist</p>
     <div id="img-div">
-      <img
+      <img 
         id="image"
         src="https://www.mnprmagazine.com/wp-content/uploads/2019/08/DSC_2649.jpg"
         alt="Miyavi on stage durning a live performance"
@@ -55,7 +71,7 @@
       </div>
     </div>
     <section id="tribute-info">
-        <blockquote>
+        <blockquote id="quote">
         <p>
           "No matter how far apart we are, we are all under and looking at the same sky"
         </p>
